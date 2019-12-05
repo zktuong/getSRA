@@ -11,14 +11,19 @@ Download the sratoolkit binaries from [here](https://trace.ncbi.nlm.nih.gov/Trac
 # For example
 # change directory to Documents
 cd /Users/zktuong/Documents/
+
 # make a folder called Softwares
 mkdir Softwares
+
 # go into the new folder
 cd Softwares
+
 # download
 wget https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.9.6-1/sratoolkit.2.9.6-1-mac64.tar.gz
+
 # unpack
 tar -xzvf sratoolkit.2.9.6-1-mac64.tar.gz
+
 # at this point, you can remove the original zip with
 # rm sratoolkit.2.9.6-1-mac64.tar.gz
 ```
