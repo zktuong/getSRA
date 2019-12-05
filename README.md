@@ -1,8 +1,8 @@
 # getSRA
-wrapper bash scripts to download fastq files from SRR
+Wrapper bash scripts to download fastq files from SRR
 
 ## installation
-navigate to the folder you want to download
+Navigate to the folder you want to download
 ```bash
 git clone https://github.com/zktuong/getSRA.git
 ```
@@ -13,8 +13,8 @@ Download sratoolkit.
 https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software
 ```
 
-add paths to ~/.bashrc (or ~/.bashprofile).<\n>
-replace ```/<path>/<to>/``` accordingly.
+Add paths to ~/.bashrc (or ~/.bashprofile).
+<br>Replace ```/<path>/<to>/``` accordingly.
 ```bash
 echo 'export PATH=/<path>/<to>/getSRA/bin:$PATH' >> ~/.bashrc
 echo 'alias getSRA="bash getSRA.sh -l "' >> ~/.bashrc
@@ -23,8 +23,8 @@ source ~/.bashrc
 ```
 
 ## usage
-download Accession list file from SRA run selector and place the file in the folder you want them to appear.<\n>
-getSRA will do the prefetch and fastqdump in succession.
+Download Accession list file from SRA run selector and place the file in the folder you want them to appear.
+<br>getSRA will do the prefetch and fastqdump in succession.
 ```bash
 getSRA SRR_Acc_List.txt
 ```
