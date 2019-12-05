@@ -23,4 +23,5 @@ do
   sleep 2
   n=$(basename $file)
   fastq-dump --outdir fastq --gzip --split-3 sra/$n/$n.sra
+  echo
 done
