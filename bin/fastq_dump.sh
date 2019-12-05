@@ -1,3 +1,3 @@
 #!/usr/bin/bash
 
-fastq-dump $1
+fastq-dump $1/*
