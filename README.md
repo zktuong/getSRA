@@ -3,11 +3,12 @@ Wrapper bash scripts to download fastq files from SRA.
 <br>Instructions are for Mac or Linux OS.<br>
 
 ## Requirements
-Download the sratoolkit binaries from this [website](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software).
+Download the sratoolkit binaries from [here](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software).
 <br>Make sure to choose the appropriate file for your system.
+<br>
 <br>Place the sratoolkit package wherever you like and unzip it, as long as you know where the directory is.
-<br>For example:
 ```
+# For example
 # change directory to Documents
 cd /Users/zktuong/Documents/
 # make a folder called Softwares
