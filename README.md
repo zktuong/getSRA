@@ -1,13 +1,13 @@
 # getSRA
 Wrapper bash scripts to download fastq files from SRR
 
-## installation
+## Installation
 Navigate to the folder you want to download
 ```bash
 git clone https://github.com/zktuong/getSRA.git
 ```
 
-## requirements
+## Requirements
 Instructions are for Mac or Linux OS<br>
 
 <br>Download binaries from sratoolkit.
@@ -24,7 +24,7 @@ echo 'export PATH=/<path>/<to>/sratoolkit.2.10.0/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-## usage
+## Usage
 Download Accession list file from SRA run selector and place the file in the folder you want them to appear.
 <br>getSRA will do the prefetch and fastqdump in succession.
 ```bash
