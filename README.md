@@ -41,8 +41,7 @@ We will point to the paths to the software by adding the paths into ~/.bashrc (o
 <br>In my example above, ```/<path>/<to>/``` will become ```/Users/zktuong/Documents/Softwares/```
 <br>and sratoolkit version will be ```sratoolkit.2.9.6-1```.
 ```bash
-echo 'export PATH=/<path>/<to>/getSRA/bin:$PATH' >> ~/.bashrc
-echo 'export PATH=/<path>/<to>/<sratoolkit.version>/bin:$PATH' >> ~/.bashrc
+echo 'export PATH=/<path>/<to>/getSRA/bin:/<path>/<to>/<sratoolkit.version>/bin:$PATH' >> ~/.bashrc
 
 # create a short cut to call getSRA.sh
 echo 'alias getSRA="bash getSRA.sh -l "' >> ~/.bashrc
