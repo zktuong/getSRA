@@ -8,7 +8,9 @@ git clone https://github.com/zktuong/getSRA.git
 ```
 
 ## requirements
-Download binaries from sratoolkit.
+Instructions are for Mac or Linux OS<br>
+
+<br>Download binaries from sratoolkit.
 ```bash
 https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software
 ```
