@@ -15,7 +15,7 @@ https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software
 
 add paths to ~/.bashrc (or ~/.bashprofile)
 ```bash
-echo 'export PATH=/path/to/where/you/cloned/getSRA:$PATH' >> ~/.bashrc
+echo 'export PATH=/path/to/where/you/cloned/getSRA/bin:$PATH' >> ~/.bashrc
 echo 'alias getSRA="bash getSRA.sh -l "' >> ~/.bashrc
 echo 'export PATH=/path/to/where/you/unpacked/sratoolkit.2.10.0/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc
