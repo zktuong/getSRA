@@ -25,7 +25,7 @@ Place the sratoolkit software wherever you like.
 <br>
 <br>We will point to the paths to the software by adding the paths into ~/.bashrc (or ~/.bashprofile).
 <br>Replace ```/<path>/<to>/``` accordingly.
-<br>in my example above, ```/<path>/<to>/``` will become ```/Users/zktuong/Documents/Softwares/```.
+<br>In my example above, ```/<path>/<to>/``` will become ```/Users/zktuong/Documents/Softwares/```.
 ```bash
 echo 'export PATH=/<path>/<to>/getSRA/bin:$PATH' >> ~/.bashrc
 echo 'export PATH=/<path>/<to>/sratoolkit.2.10.0/bin:$PATH' >> ~/.bashrc
