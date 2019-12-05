@@ -1,3 +1,3 @@
 #!/usr/bin/bash
 
-prefetch -v $1
+prefetch -v -O sra $1
