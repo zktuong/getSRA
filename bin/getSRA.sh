@@ -19,7 +19,6 @@ COUNTER=1
 for file in sra/*
 do
   (( DIFF = 100 - (TOTAL = STATUS * COUNTER++ + MODULO )))
-  clear
   line="[$(yes "=" | head -n $TOTAL)$(yes " " | head -n $DIFF)] $TOTAL%"
   echo -n -e "$line" | tr -d "\n"
   sleep 2
