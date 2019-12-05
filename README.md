@@ -26,7 +26,6 @@ source ~/.bashrc
 
 ## Usage
 Download Accession list file from SRA run selector and place the file in the folder you want them to appear.
-<br>getSRA will do the prefetch and fastqdump in succession.
 ```bash
 getSRA SRR_Acc_List.txt
 ```
