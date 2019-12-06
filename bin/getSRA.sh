@@ -10,18 +10,10 @@ while getopts ":l:" opt; do
   esac
 done
 
-COUNT_VMS=6
-(( STATUS = 100 / COUNT_VMS ))
-(( MODULO = 100 % COUNT_VMS ))
-COUNTER=1
-
 for file in sra/*
 do
-  (( DIFF = 100 - (TOTAL = STATUS * COUNTER++ + MODULO )))
-  line="[$(yes "=" | head -n $TOTAL)$(yes " " | head -n $DIFF)] $TOTAL%"
-  echo -n -e "$line" | tr -d "\n"
-  sleep 2
   n=$(basename $file)
-  fastq-dump --outdir fastq --gzip --split-3 sra/$n/$n.sra
+  echo "Processing ${n}"
+  fastq-dump --outdir fastq --gzip --split-3 sra/${n}/${n}.sra
   echo
 done
