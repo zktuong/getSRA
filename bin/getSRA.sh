@@ -15,6 +15,6 @@ do
   n=$(basename $file)
   echo "Processing ${n}"
   fastq-dump --outdir fastq --gzip --split-3 sra/${n}/${n}.sra
-  rm sra/${n}/${n}.sra
+  rm -rf sra/${n}
   echo
 done
